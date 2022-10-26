@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Upqroo\\OneDrive - Universidad Politécnica de Quintana Roo\\Escritorio\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\Upqroo\\Source\\Repos\\PRotecto24BMM\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\Upqroo\\OneDrive - Universidad Politécnica de Quintana Roo\\Escritorio\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\Upqroo\\Source\\Repos\\PRotecto24BMM\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\Upqroo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Upqroo\\OneDrive - Universidad Politécnica de Quintana Roo\\Escritorio\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\Upqroo\\Source\\Repos\\PRotecto24BMM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Upqroo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,8 +7,8 @@ using WebApplication1.Context;
 
 namespace WebApplication1.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext.ApllicationDbContext))]
-    partial class ApllicationDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(ApplicationDbContext))]
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
