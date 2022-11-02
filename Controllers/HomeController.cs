@@ -23,8 +23,8 @@ namespace WebApplication1.Controllers
 
         public async Task <IActionResult> Index()
         {
-            var response = await _context.Usuarios.ToListAsync();
-            return View();
+            var response = await _context.Usuarios.Include(z=> z.Roles).ToListAsync();
+            return View(response);
         }
 
         public IActionResult Privacy()
