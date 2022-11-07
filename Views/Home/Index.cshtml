@@ -5,7 +5,7 @@
 
 <div class="row">
     <div class="offset-9 col-3 mb-3">
-        <a asp-action="crear" asp-controller="Home" class="btn-success d-block mx-auto btn-lg">Nuevo Usuario</a>
+        <a asp-action="Crear" asp-controller="Home" class="btn-success d-block mx-auto btn-lg"> <i class="fa-solid fa-user"></i> Nuevo Usuario</a>
     </div>
 </div>
 
@@ -32,7 +32,7 @@
 
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody> 
                                 @foreach(var item in Model)
                                 {
                                     <tr>
@@ -41,8 +41,8 @@
                                         <td>@Html.DisplayFor(x => item.password)</td>
                                         <td>@Html.DisplayFor(x => item.Roles.Nom)</td>
                                         <td>
-                                            <a class="btn btn-warning" asp-action="Editar" asp-route-id=@item.PkUser> Editar </a>
-                                            <a class="btn btn-danger" asp-action="Eliminar" asp-route-id=@item.PkUser> Eliminar </a>
+                                            <a class="btn btn-warning" asp-action="Editar" asp-route-id=@item.PkUser> <i class="fa-duotone fa-pen-to-square"></i> Editar </a>
+                                            <a class="btn btn-danger" asp-action="Eliminar" asp-route-id=@item.PkUser> <i class="fa-solid fa-trash"></i>  Eliminar </a>
                                         </td>
                                     </tr>
                                 }
@@ -59,3 +59,34 @@
         </div>
     </div>
 </div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            //Llamar a datatable
+            $('#tblUsuario').DataTable({
+                language: {
+                    "decimal": "",
+                    "emptyTable": "No hay información",
+                    "info": "Mostrando START a END de TOTAL Entradas",
+                    "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+                    "infoFiltered": "(Filtrado de MAX total entradas)",
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "lengthMenu": "Mostrar MENU Entradas",
+                    "loadingRecords": "Cargando...",
+                    "processing": "Procesando...",
+                    "search": "Buscar:",
+                    "zeroRecords": "Sin resultados encontrados",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Ultimo",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    }
+                }
+            });
+        });
+    </script>
+
+}

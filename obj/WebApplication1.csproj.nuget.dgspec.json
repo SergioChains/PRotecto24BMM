@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Upqroo\\OneDrive - Universidad Politécnica de Quintana Roo\\Escritorio\\Proyecto24BMM\\WebApplication1.csproj": {}
+    "C:\\Users\\Upqroo\\Source\\Repos\\PRotecto24BMM\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Upqroo\\OneDrive - Universidad Politécnica de Quintana Roo\\Escritorio\\Proyecto24BMM\\WebApplication1.csproj": {
+    "C:\\Users\\Upqroo\\Source\\Repos\\PRotecto24BMM\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Upqroo\\OneDrive - Universidad Politécnica de Quintana Roo\\Escritorio\\Proyecto24BMM\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Upqroo\\Source\\Repos\\PRotecto24BMM\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\Upqroo\\OneDrive - Universidad Politécnica de Quintana Roo\\Escritorio\\Proyecto24BMM\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\Upqroo\\Source\\Repos\\PRotecto24BMM\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\Upqroo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Upqroo\\OneDrive - Universidad Politécnica de Quintana Roo\\Escritorio\\Proyecto24BMM\\obj\\",
+        "outputPath": "C:\\Users\\Upqroo\\Source\\Repos\\PRotecto24BMM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Upqroo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -73,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "732ohagfpTr4Bw0lYoAe/aH7gvI4RUH8Uo6dADujCB9KH5IZOMGPj6OlqLwGIbAgGPWnZPI4vAEkOc02GyMSJA==",
+  "dgSpecHash": "tNDu5nvA+qFcCHdvkgvNrt3Bp/AYQAZj6ODzYAJrpK2suDyKsN54nCiqUYkyDZkBxAbinSBuoQ40dOQKVJtafg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Upqroo\\OneDrive - Universidad Politécnica de Quintana Roo\\Escritorio\\Proyecto24BMM\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\Upqroo\\Source\\Repos\\PRotecto24BMM\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Upqroo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Upqroo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
