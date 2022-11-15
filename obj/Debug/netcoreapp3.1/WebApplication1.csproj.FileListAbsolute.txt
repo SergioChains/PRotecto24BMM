@@ -268,3 +268,5 @@ C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\P
 C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\Proyecto24BMM\obj\Debug\netcoreapp3.1\WebApplication1.dll
 C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\Proyecto24BMM\obj\Debug\netcoreapp3.1\WebApplication1.pdb
 C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\Proyecto24BMM\obj\Debug\netcoreapp3.1\WebApplication1.genruntimeconfig.cache
+C:\Users\Upqroo\Source\Repos\PRotecto24BMM\obj\Debug\netcoreapp3.1\Razor\Views\Home\Crear.cshtml.g.cs
+C:\Users\Upqroo\Source\Repos\PRotecto24BMM\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
