@@ -1,0 +1,44 @@
+﻿@model WebApplication1.Models.Usuario
+@{ViewData["Title"] = "Editar Usuario";
+}
+
+<div class = "container-fluid">
+	<div class="offset-12">
+		<div class="card border">
+			<h1 class="text-light">
+				<div class="card-header bg-dark">
+					@ViewData["Title"]
+				</div>
+
+				<div class="card-body ">
+					<form asp-action="Editar_user" method="post">
+						<input type="hiden" asp-for="PkUser">
+
+						<div class="form-grup" >
+							<label asp-for="Nom" class="control-label">
+								<input asp-for="Nom" class="form-control" placeholder="Ingresa tu nombre" required="required"/>
+							</label>
+						</div>
+						<div class="form-grup ">
+							<label asp-for="user" class="control-label">
+								<input asp-for="user" class="form-control" placeholder="Ingresa tu usuario" required="required"/>
+							</label>
+						</div>
+						<div class="form-grup ">
+							<label asp-for="password" class="control-label">
+								<input asp-for="password" class="form-control" placeholder="Ingresa tu contraseña" required="required"/>
+							</label>
+						</div>
+						<div class="form-grup mt-3">
+							<button type="submit" class="btn btn-secundary d-blok m-auto">
+								guardar
+							</button>
+						</div>
+					</form>
+
+				<a asp-controller="Home" asp-action="Index">Volver  </a>
+				</div>
+			</h1>
+		</div>
+	</div>
+</div>

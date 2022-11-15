@@ -32,6 +32,111 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Crear()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Crear_user(Usuario response)
+        {
+            try
+            {
+                if (response != null)
+                {
+                    Usuario user = new Usuario();
+                    user.Nom = response.Nom;
+                    user.user = response.user;
+                    user.password = response.password;
+                    user.FkRol = 1;
+                    _context.Usuarios.Add(user);
+                    await _context.SaveChangesAsync();
+
+                    return RedirectToAction(nameof(Index));
+                }
+                return View();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Surgio un error: " + ex.Message.ToString());
+            }
+
+        }
+
+        [HttpGet]
+        public IActionResult editar(int? id)
+        {
+            try
+            {
+                if (id == null)
+                {
+                    return NotFound();
+                }
+                var usuario = _context.Usuarios.Find(id);
+                if (usuario == null)
+                {
+                    return NotFound();
+                }
+                return View(usuario);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Surgio un error: " + ex.Message.ToString());
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Editar_user(Usuario request)
+        {
+            try
+            {
+                if (request != null)
+                {
+                    Usuario user = new Usuario();
+                    user.PkUser = request.PkUser;
+                    user.Nom = request.Nom;
+                    user.user = request.user;
+                    user.password = request.password;
+                    user.FkRol = 1;
+                    _context.Usuarios.Update(user);
+                    await _context.SaveChangesAsync();
+
+                    return RedirectToAction(nameof(Index));
+                }
+                return View();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Surgio un error: " + ex.Message.ToString());
+            }
+
+        }
+
+        [HttpGet]
+        public IActionResult Eliminar(int? id)
+        {
+            try
+            {
+                if (id == null)
+                {
+                    return NotFound();
+                }
+                var usuario = _context.Usuarios.Find(id);
+                if (usuario != null)
+                {
+                    _context.Remove(usuario);
+                    _context.SaveChanges();
+                    return RedirectToAction(nameof(Index));
+                }
+                return NotFound();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Surgio un error: " + ex.Message.ToString());
+            }
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
