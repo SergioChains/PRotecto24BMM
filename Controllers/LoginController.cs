@@ -5,16 +5,16 @@ using WebApplication1.Context;
 
 namespace WebApplication1.Controllers
 {
-    public class indexController : Controller
+    public class LoginController : Controller
     {
 
         private readonly ApplicationDbContext _context;
-        public indexController(ApplicationDbContext context)
+        public LoginController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public IActionResult index()
+        public IActionResult Index()
         {
             return View();
         }
