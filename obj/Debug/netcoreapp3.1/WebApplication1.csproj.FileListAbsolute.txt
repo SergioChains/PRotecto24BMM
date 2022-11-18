@@ -432,3 +432,4 @@ C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\a
 C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\asd\obj\Debug\netcoreapp3.1\WebApplication1.dll
 C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\asd\obj\Debug\netcoreapp3.1\WebApplication1.pdb
 C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\asd\obj\Debug\netcoreapp3.1\WebApplication1.genruntimeconfig.cache
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\asd\obj\Debug\netcoreapp3.1\Razor\Views\Articulo\Index.cshtml.g.cs

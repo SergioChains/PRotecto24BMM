@@ -12,7 +12,7 @@ namespace WebApplication1.Context
         }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Rol> roles { get; set; }
-
+        public DbSet<Articulo> articulo { get; set; }
     }
 }
 

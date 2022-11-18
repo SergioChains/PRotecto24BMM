@@ -18,6 +18,27 @@ namespace WebApplication1.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("WebApplication1.Models.Articulo", b =>
+                {
+                    b.Property<int>("PkArticulo")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UrlImg")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PkArticulo");
+
+                    b.ToTable("articulo");
+                });
+
             modelBuilder.Entity("WebApplication1.Models.Rol", b =>
                 {
                     b.Property<int>("PkRol")
